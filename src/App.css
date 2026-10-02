@@ -1,0 +1,252 @@
+/* Reset básico e configurações globais */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333;
+}
+
+/* Layout Principal */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Estilização Completa do Header */
+.main-header {
+  background: linear-gradient(135deg, #1e293b, #2c3e50);
+  color: #ffffff;
+  padding: 25px 40px;
+  border-bottom: 4px solid #1abc9c;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+}
+
+.main-header p {
+  font-size: 1.05rem;
+  color: #1abc9c;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.content-layout {
+  display: flex;
+  flex: 1;
+}
+
+/* Estilos do Menu Lateral */
+.sidebar-menu {
+  width: 300px;
+  min-width: 300px;
+  background-color: #ffffff;
+  border-right: 1px solid #e1e8ed;
+  padding: 20px;
+  overflow-y: auto;
+  max-height: calc(100vh - 130px);
+}
+
+.sidebar-menu h3 {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 8px;
+}
+
+.sidebar-menu ul {
+  list-style: none;
+}
+
+.sidebar-menu li {
+  margin-bottom: 6px;
+}
+
+.sidebar-menu a {
+  display: block;
+  padding: 10px 12px;
+  color: #495057;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar-menu a:hover {
+  background-color: #e9ecef;
+  color: #1abc9c;
+  transform: translateX(4px);
+}
+
+/* Área de Conteúdo Dinâmico */
+.content-area {
+  flex: 1;
+  padding: 40px;
+  background-color: #fdfdfd;
+  overflow-y: auto;
+}
+
+/* Estilização interna das páginas (.conteudo) */
+/* Área de Conteúdo Dinâmico */
+.content-area {
+  flex: 1;
+  padding: 30px 40px; /* Reduzido o espaçamento lateral esquerdo */
+  background-color: #fdfdfd;
+  overflow-y: auto;
+}
+
+/* Estilização interna das páginas (.conteudo) */
+.conteudo {
+  max-width: 1000px; /* Aumentado ligeiramente para aproveitar melhor o ecrã */
+  margin: 0; /* Removido o 'auto' para colar mais à esquerda */
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+.conteudo h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.conteudo h2 {
+  font-size: 1.3rem;
+  color: #34495e;
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
+
+.conteudo p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4a5568;
+  margin-bottom: 15px;
+}
+
+.conteudo hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin: 25px 0;
+}
+
+.conteudo ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.conteudo li {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  color: #4a5568;
+  margin-bottom: 8px;
+}
+
+.conteudo pre {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  padding: 15px 20px;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 15px 0 25px 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.conteudo code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main-footer {
+  padding: 15px;
+  background-color: #2c3e50;
+  color: #fff;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Estilização do Rodapé */
+.main-footer {
+  background: linear-gradient(135deg, #1e293b, #2c3e50);
+  color: #fff;
+  padding: 20px 30px;
+  border-top: 3px solid #1abc9c;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.footer-logo {
+  max-height: 50px;
+  object-fit: contain;
+}
+
+.footer-info {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #cbd5e1;
+}
+
+.footer-info strong {
+  color: #ffffff;
+}
+
+.footer-year {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+/* Responsividade para o rodapé em ecrãs menores */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 768px) {
+  .content-layout {
+    flex-direction: column;
+  }
+  .sidebar-menu {
+    width: 100%;
+    min-width: 100%;
+    max-height: none;
+  }
+  .content-area {
+    padding: 15px;
+  }
+  .conteudo {
+    padding: 20px;
+  }
+}

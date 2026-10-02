@@ -1,0 +1,65 @@
+import React from 'react';
+
+export function Introducao() {
+  return (
+    <main className="conteudo">
+      <h1>Introdução ao Java</h1>
+
+      <p>
+        Java é uma linguagem de programação orientada a objetos amplamente utilizada
+        no desenvolvimento de sistemas corporativos, aplicações web, aplicativos Android
+        e diversos outros tipos de software.
+      </p>
+
+      <p>
+        A linguagem foi criada pela empresa Sun Microsystems em 1995 e atualmente é
+        mantida pela Oracle. Uma das principais características do Java é sua
+        portabilidade, resumida na famosa frase:
+      </p>
+
+      <p><strong>"Write once, run anywhere"</strong> (Escreva uma vez, execute em qualquer lugar).</p>
+
+      <h2>Características da Linguagem Java</h2>
+      <ul>
+        <li>Orientação a Objetos</li>
+        <li>Portabilidade entre sistemas operacionais</li>
+        <li>Grande comunidade de desenvolvedores</li>
+        <li>Amplamente utilizada no mercado</li>
+        <li>Possui vasta documentação e bibliotecas</li>
+      </ul>
+
+      <h2>Primeiro Programa em Java</h2>
+      <p>
+        Tradicionalmente, o primeiro programa em qualquer linguagem é o{' '}
+        <strong>Hello World</strong>. Ele serve para demonstrar a estrutura básica de um
+        programa e verificar se o ambiente está configurado corretamente.
+      </p>
+
+      <pre>
+        <code>{`public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Olá Mundo");
+    }
+}`}</code>
+      </pre>
+
+      <h2>Explicação do Código</h2>
+      <p><strong>public class HelloWorld</strong></p>
+      <p>Define uma classe chamada <strong>HelloWorld</strong>. Em Java, todo programa precisa estar dentro de uma classe.</p>
+
+      <p><strong>public static void main(String[] args)</strong></p>
+      <p>Este é o método principal do programa. É por onde a execução do programa começa.</p>
+
+      <p><strong>System.out.println()</strong></p>
+      <p>Este comando é utilizado para exibir mensagens no console do programa.</p>
+
+      <h2>Atividade</h2>
+      <p>Crie um programa em Java que exiba no console:</p>
+      <ul>
+        <li>Seu nome</li>
+        <li>Seu curso</li>
+        <li>A frase: "Estou aprendendo Java"</li>
+      </ul>
+    </main>
+  );
+}

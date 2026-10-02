@@ -1,167 +1,70 @@
-# ☕ Java GUI + HTML – Material Didático
+# Getting Started with Create React App
 
-🔗 **Repositório do projeto:**
-https://github.com/rafaelflorindo/java-gui-html
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
----
+## Available Scripts
 
-Este repositório contém um site educacional desenvolvido para apoiar o ensino da linguagem Java, com foco em lógica de programação, Programação Orientada a Objetos (POO) e construção de interfaces.
+In the project directory, you can run:
 
-O projeto integra conteúdos de Java com páginas HTML, servindo como material de apoio para alunos do curso de Análise e Desenvolvimento de Sistemas.
+### `npm start`
 
----
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🎯 Objetivo
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Disponibilizar um ambiente simples e organizado para estudo dos principais conceitos de Java, permitindo que o aluno:
+### `npm test`
 
-* Consulte conteúdos teóricos
-* Visualize exemplos práticos
-* Resolva exercícios
-* Acompanhe resoluções comentadas
-* Evolua até a construção de aplicações com interface gráfica
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## 📚 Conteúdos abordados
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### 🔹 Fundamentos de Java
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-* Introdução à linguagem
-* Variáveis (tipos primitivos e não primitivos)
-* Estruturas condicionais
-* Estruturas de repetição
-* Arrays e ArrayList
-* Entrada de dados com Scanner
-* Construção de menus (do-while e switch)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-### 🔹 Programação Orientada a Objetos (POO)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-* Classes e objetos
-* Encapsulamento
-* Herança
-* Polimorfismo
-* Organização de código
-* Uso de packages
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
----
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-### 🔹 Estrutura de dados e prática
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-* Manipulação de listas
-* Busca em coleções
-* Boas práticas de código
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### 🔹 Interface gráfica (GUI)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-* Introdução ao uso de interfaces em Java
-* Base para construção com Swing
-* Integração com lógica de programação
+### Code Splitting
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### 🔹 Ferramentas e ambiente
+### Analyzing the Bundle Size
 
-* IDEs: Eclipse, IntelliJ, NetBeans e VS Code
-* Organização de projetos
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
----
+### Making a Progressive Web App
 
-## 🧪 Exercícios
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-O projeto conta com exercícios práticos ao longo dos conteúdos, permitindo ao aluno aplicar os conceitos aprendidos.
+### Advanced Configuration
 
-Também há uma seção de:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-👉 **Resoluções comentadas**, incentivando o aprendizado e não apenas a cópia.
+### Deployment
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## 🖥️ Tecnologias utilizadas
+### `npm run build` fails to minify
 
-* Java
-* HTML5
-* CSS3
-* JavaScript
-
----
-
-## 📁 Estrutura do projeto
-
-```
-/css
-/js
-/imagens
-index.html
-variaveis.html
-condicionais.html
-repeticao.html
-array.html
-arrayList.html
-menuJava.html
-entradaScanner.html
-classes.html
-encapsulamento.html
-heranca.html
-polimorfismo.html
-resolucoes.html
-ides.html
-```
-
----
-
-## 🚀 Como utilizar
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/rafaelflorindo/java-gui-html.git
-```
-
-2. Abra o arquivo `index.html` em seu navegador
-
-3. Navegue pelos conteúdos através do menu lateral
-
----
-
-## 👨‍🏫 Público-alvo
-
-* Alunos iniciantes em programação
-* Estudantes de ADS
-* Pessoas que desejam aprender Java de forma prática e estruturada
-
----
-
-## 💡 Metodologia
-
-O material foi desenvolvido com foco em:
-
-* Aprendizagem progressiva
-* Conteúdo simples e direto
-* Prática constante
-* Organização semelhante a projetos reais
-
----
-
-## 📌 Observações
-
-* Este projeto tem caráter educacional
-* As resoluções são sugestões e podem ter múltiplas abordagens
-* O foco principal é o aprendizado do aluno
-
----
-
-## 👤 Autor
-
-**Rafael Alves Florindo**
-Professor de Tecnologia da Informação
-
----
-
-## 📜 Licença
-
-Este projeto é livre para uso educacional.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
